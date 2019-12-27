@@ -1,0 +1,63 @@
+<!-- PIAIC - BlockChain - Semester II   -->
+
+<!-- Id # : BCC 037581                  -->
+<!-- Name : Anwer Shuja Farooqui        -->
+
+<!-- Assignment 02 : Q # 020201             -->
+<!-- Doc id #      : index020201.html     -->
+
+<!-- Notes         : Check the Character  -->
+
+<html>
+    <head>
+        <title> Assignment 2 - Q # 020201 </title>
+
+        
+        <script type="text/javascript">
+            
+            
+// ----------------------------------------------------------------------------------------------------------------------------------
+
+// ----------------------------- Check The Letter --------------------------------------------------------
+
+        var Char = prompt("Enter a Letter ? ");
+        var ChkChar = Char.charCodeAt(0);
+
+        var LineBreak = "<br />";
+        
+//-------------------------------------------------------------------------------------------------------
+
+        document.writeln('<h2>');
+        document.writeln(LineBreak);
+
+
+        if (ChkChar >= 48 && ChkChar <= 57) {
+            console.log("You are looking the character status : " + Char);
+            document.writeln("You are looking for Number"); 
+        
+        } else if (ChkChar >= 65 && ChkChar <= 90) { 
+            console.log("The letter enter was : " + Char);
+            document.writeln("Here is the Uppercase Letter");
+        
+        } else if (ChkChar >= 97 && ChkChar <= 122) { 
+            console.log("The letter enter was : " + Char);
+            document.writeln("We found Lowercase letter");
+         
+        } 
+
+                        
+        document.writeln('</h2>');
+        document.writeln(LineBreak);
+
+//------------------------------------------------------------------------------------------------------------------------------
+ 
+        </script>
+    
+    
+        </head>
+
+        <body>
+            
+        </body>
+
+</html>
